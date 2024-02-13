@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "sass": "^1.70.0"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.0.3"
+  },
+  "name": "kyber",
+  "version": "1.0.0",
+  "description": "Creative studio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/main.scss css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaridAlfaro/Kyber.git"
+  },
+  "author": "KyberStudio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FaridAlfaro/Kyber/issues"
+  },
+  "homepage": "https://github.com/FaridAlfaro/Kyber#readme"
+}
