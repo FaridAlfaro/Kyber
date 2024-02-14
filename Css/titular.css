@@ -1,0 +1,34 @@
+.Titular-1{
+    display: flex;
+    flex-direction: row;
+    margin: 30%;
+    margin-top: 10%;
+    margin-bottom: 200px;
+    align-items: center;
+    justify-content: center;
+}
+.textos-titular-sub h2{
+    color: #efefef;
+    width: 40vw;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing:5px;
+}
+.textos-titular-sub p{
+    color: #efefef;
+    font-weight: lighter;
+    width: 40vw;
+    font-size: 26px;
+}
+.separador{
+    min-width: 10px;
+    margin: 0 10%;
+    height: 150px;
+    background-color: #efefef;
+}
+.Logo-titular{
+}
+
+
+
+

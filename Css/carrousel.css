@@ -2,12 +2,16 @@ html, body {
     margin: 0%;
     padding: 0%;
     width: 100%;
-    overflow: hidden;
     background: #0f0f0f;
+    font-family: "Montserrat";
 }
 @font-face {
-    font-family: Nexa;
-    src: url(/fonts/Nexa\ Regular.otf);
+    font-family: Montserrat;
+    src: url(/fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Mon-light;
+    src: url(/fonts/Montserrat-Thin.ttf);
 }
 .carrousel-contain{
     margin-top: 100px;
@@ -61,8 +65,8 @@ button:focus {
 
 .block-1 {
     z-index: 1;
-    position: fixed;
-    height: 80vh;
+    position: absolute;
+    height: 82vh;
     width: 5%;
     left: 0%;
     background: #0f0f0f;
@@ -70,8 +74,8 @@ button:focus {
 
 .block-2 {
     z-index: 1;
-    position: fixed;
-    height: 80vh;
+    position: absolute;
+    height: 82vh;
     width: 25%;
     left: 25%;
     background: #0f0f0f;
@@ -79,8 +83,8 @@ button:focus {
 
 .block-3 {
     z-index: 1;
-    position: fixed;
-    height: 80vh;
+    position: absolute;
+    height: 82vh;
     width: 5%;
     right: 0%;
     background: #0f0f0f;
@@ -88,8 +92,8 @@ button:focus {
 
 .overlay {
     z-index: 1;
-    position: fixed;
-    height: 80vh;
+    position: absolute;
+    height: 82vh;
     width: 20%;
     left: 5%;
     background: rgba(0, 0, 0, .65);
@@ -115,14 +119,14 @@ button:focus {
 .text-slide h1 {
     color: #fff;
     font-size: 64px;
-    font-family: "Nexa";
+    font-family: "Montserrat";
     text-transform: uppercase;
     padding-left: 10%;
 }
 
 span{
     font-size: 30px;
-    font-family: "Nexa";
+    font-family: "Montserrat";
     font-weight: lighter;
     text-transform: none;
 }

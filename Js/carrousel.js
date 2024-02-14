@@ -23,3 +23,5 @@ var sickSecondary = {
 
 $('.image-slider').slick(sickPrimary);
 $('.text-slider').slick(sickSecondary);
+
+
