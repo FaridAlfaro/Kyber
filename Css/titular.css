@@ -1,3 +1,11 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(/fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Mon-light;
+    src: url(/fonts/Montserrat-Thin.ttf);
+}
 .Titular-1{
     display: flex;
     flex-direction: row;
@@ -32,26 +40,27 @@
 
 @media(max-width: 990px) {
     .Titular-1 {
-        margin: 15% 20%;
+        flex-direction: column;
+        margin: 15% 2%;
         align-items: center;
         justify-content: center;
     }
 
     .textos-titular-sub h2 {
-        font-size: 14px;
+        font-size: 20px;
     }
 
     .textos-titular-sub p {
-        font-size: 14px;
-        width: 60vw;
+        font-size: 16px;
+        width: 85vw;
     }
 
     .separador {
-        height: 100px;
-        min-width: 6px;
+        display: none;
     }
     .Logo-titular{
-        width: 80px;
+        width: 350px;
+        margin: 120px 0px;
     }
 }
 
