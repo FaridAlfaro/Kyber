@@ -637,3 +637,12 @@
  article:hover {
 	 opacity: 1;
 }
+
+
+.separador{
+	font-size: 6vw;
+	background:transparent !important;
+	color: #efefef;
+	text-align: center;
+	margin: 10% 0;
+}
